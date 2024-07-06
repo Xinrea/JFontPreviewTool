@@ -8,6 +8,7 @@
               fonts = await window.queryLocalFonts();
             }
           }>点击此处</A> 授权获取本地字体列表。</p>
+          <p class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">如果在其他工具中字体名不生效，请复制 CSS 添加到自定义样式中。</p>
         </caption>
         <TableHead defaultRow={false}>
           <TableHeadCell>FAMILY</TableHeadCell>
